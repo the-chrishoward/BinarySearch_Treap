@@ -8,9 +8,6 @@
 #define TREAP_TXX
 
 #include "Treap.hpp"
-#include <algorithm> // For std::max
-#include <stdexcept> // For exception handling
-
 
 template <typename KeyType, typename ValueType>
 Treap<KeyType, ValueType>::Treap()
