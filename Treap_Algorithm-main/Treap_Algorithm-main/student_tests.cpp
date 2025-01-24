@@ -48,7 +48,7 @@ TEST_CASE("Treap Height", "[treap]") {
 
     treap.insert(2, 20);
     treap.insert(7, 70);
-    //REQUIRE(treap.height() >= 3);
+    //REQUIRE(treap.height() >= 3); (These tests are inconsistent at times, so they've been commented out for consistency)
     //REQUIRE(treap.height() <= 4);
 }
 
